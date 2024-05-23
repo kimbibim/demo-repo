@@ -1,0 +1,55 @@
+.calendar {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.colstart, .colend{
+  padding : 0px 20px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.weekdays {
+  display: flex;
+  flex-direction: row;
+}
+
+.days, .body {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.cell {
+  cursor: pointer;
+}
+
+.disabled {
+  color: #ccc;
+}
+
+.selected {
+  background-color: #f0f0f0;
+}
+
+.number {
+  font-size: 16px;
+}
